@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>impact</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            /* position: relative; */
+            /* color: white; */
+            background-color: rgb(32, 133, 32);
+            height: 75vh;
+            width: 100vw;
+        }
+
+        h1{
+            /* padding-left: 1rem; */
+            color: white;
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+            padding-top: 1rem;
+            justify-content: space-between;
+            align-items: center;
+            height: 8vh;
+            font-size: 1.5rem;
+        }
+        .nav_buttons{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        a{
+        
+            color: white;
+            text-decoration: none;
+        }
+        .Content{
+            display: flex;
+            /* flex-direction: column; */
+            gap: 10px;
+        }
+        .leftside{
+            width: 100vw;
+            padding-left: 2rem;
+            padding-top: 5rem;
+        }
+        .leftside h2{
+            color: white;
+            font-size: 3rem;
+        }
+        .leftside h3{
+            padding-top: 1rem;
+            width: 40vw;
+            padding-left: 1rem;
+            font-size: 1.4rem;
+            color: rgb(195, 181, 181);
+        }
+        .cards{
+            padding: 20px;
+            margin-top: 50px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-evenly;
+          
+            /* border: 2px solid black; */
+        }
+        .cards img{
+            
+            height: 24vh;
+        }
+        .incards{
+            /* position: absolute; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 2rem;
+            color: white;
+            background-color: rgb(21, 89, 21);
+            border-radius: 25px;
+            /* border: 2px solid yellow; */
+        }
+
+        .button{
+            /* height: ; */
+            margin: 2rem;
+            display: flex;
+            gap: 2rem;
+        }
+        .rightbutton{
+            display: flex;
+        }
+       
+        button {
+            font-size: 2rem;
+            border-radius: 25px;
+            height: 8vh;
+            width: 10vw;
+            border: none;
+            color: white;
+            background-color: rgba(1, 178, 24, 0.26);
+        }
+        .cards{
+            padding-left: 10rem;
+            gap: 10rem;
+            position: absolute;
+            top: 440px;
+        }
+    </style>
+</head>
+<body>
+    <section class="main">
+    <div class="navbar">
+    <div class="icon">
+        <h1>impact</h1>
+    </div>
+    <div class="nav_buttons">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Team</a>
+        <a href="#">Blog</a>
+        <a href="#">Drop Down</a>
+        <a href="#">Contact</a>
+    </div>
+    </div>
+
+<div class="Content">
+    <div class="leftside">
+        <h2>Welcome to Impact</h2>
+        <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo eum ut molestiae vel nobis, fugiat quam. Explicabo eligendi quibusdam culpa fugiat, nulla adipisci illum dicta, tempore odio ipsam reiciendis? Eligendi!</h3>
+        <div class="button">
+            <div class="leftbutton">
+                <button>Get Video</button>
+            </div>
+            <div class="rightbutton">
+                <button><i class="fa-solid fa-play"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="rightside">
+        <img src="transparent.png" alt="rightimage">
+    </div>
+</div>
+</section>
+<section class="cards">
+    <div class="incards"><img src="football.png" alt="football"><p>Football</p></div>
+    <div class="incards"><img src="basketball.png" alt="basketball"><p>Basketball</p></div>
+    <div class="incards"><img src="golf.png" alt="golf"><p>Golf Course</p></div>
+    <div class="incards"><img src="cricket.png" alt="cricket"><p> Cricket Pitch</p></div>
+</section>
+
+
+    
+
+    
+</body>
+</html>
